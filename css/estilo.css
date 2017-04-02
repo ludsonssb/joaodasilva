@@ -1,0 +1,186 @@
+/*PARTE PRINCIPAL*/
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    /* sobrescreve o site.css */
+    display: block;
+}
+main {
+    flex-grow: 1;
+}
+html{
+	font-size: 120%;
+}
+
+div {
+	width: 720px;
+	margin:30px auto;
+	padding: 30px;
+	font-size: 18px;
+	}
+
+header, main h1 {
+	font-size: 300%;
+	background-color: #851944;
+	color: #FAFFFA;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 2rem;
+	margin: 0;
+	border-bottom: .5rem black solid;
+	text-transform: uppercase;
+	}
+
+h2 {
+	font-size: 200%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	clear: both;
+	}
+
+body {
+	font-size: 20px;
+	background-color: #F2FFFC;
+	line-height: 1.5;
+	}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+	}
+
+aside {
+	clear: right;
+	box-sizing: border-box;
+	border-left: 10px black solid;
+	border-bottom: 10px black solid;
+	margin-left: 2px;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	text-align: center;
+	width: width: calc(0.9 * 270px);
+	padding: 0;
+	float: right;
+	height: 1800px;
+	position: absolute;
+	top: 262px;
+	right: 0;
+    padding-top: calc(300px + 1em);
+	}
+	.minha-foto,
+.navegacao-site {
+    /* removemos a borda aqui */
+}
+
+.minha-foto {
+    border-bottom: .5em solid black;
+}
+
+/*NAV*/
+
+
+nav {
+	box-sizing: border-box;
+	height: 250px;
+	margin: 0;
+	width:calc(0.9 * 270px);
+	display: inline-block;
+	}
+nav h1 {
+	font-size: 27px;
+	padding: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+
+nav a {
+	text-transform: lowercase;
+	}
+
+.principal {
+	background-color: black;
+	color: #F2FFFC;
+	padding: 1px;
+	text-align: center;
+	position: fixed;
+	clear: both;
+	bottom: 0;
+	width: 100%;
+	}
+
+ul {
+    color: #FAFFFA;
+    font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+ul li a {
+    color: inherit;
+ 	}
+
+main a{
+	color: #851944;
+	}
+	
+a {
+	text-decoration: none;
+	}
+
+/*ICONES E IMAGENS*/
+.icones-sociais li {
+	display: inline-block;
+	}
+
+
+.github {
+	background-image: url(../img/github.png);
+	}
+
+.twitter {
+	background-image: url(../img/twitter.png);
+	}
+
+.linkedin{
+	background-image: url(../img/linkedin.png); 
+	}
+
+img{
+	border: 10px black solid;
+	float: right;
+	}
+
+.minha-foto{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: calc(0.9 * 270px);
+
+
+/*FOOTER8*/	
+
+.principal {
+	background-color: rgba(0, 0, 0, .3);
+	color: black;
+	padding: 1px;
+	text-align: center;
+	position: fixed;
+	clear: both;
+	bottom: 0;
+	width: 100%;
+	}
+
+
+
+/*RETIRANDO A LETRA DOS SIMBOLOS*/
+.icones-sociais {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+	font-size: ;
+	}
+
+
+
+
+

@@ -1,0 +1,122 @@
+blockquote {
+	background-color: #D9E5E3;
+    border: .5em solid #C2CCCA;
+    padding: 1em;
+    margin: 1em 2em;
+    width: 30ch;
+    box-sizing: border-box;
+	}
+	blockquote:before {
+		content: '"';
+		font-size: 4em;
+		position: absolute;
+		color: #bbb;
+		margin-top: 0;
+	}
+	.container > p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #3C1D3D;
+    text-shadow: 1px 1px #000;
+    margin-right: .2ch;
+}
+
+.fiat {
+	float: right;
+	}
+
+.petrobras {
+	float: left;
+	}
+
+cite {
+	text-indent: inherit;
+	}
+
+strong {
+    font-weight: bold;
+	}
+
+em {
+    font-style: italic;
+	}
+
+	a {
+	text-decoration: none;
+	}
+
+
+	blockquote p {
+	position: relative;
+	}
+
+	.icones-sociais a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+	.icones-sociais a:hover::after,
+	.icones-sociais a:focus::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    text-indent: 0;
+    width: 300%;
+    background: black;
+    font-size: .75em;
+}
+
+.icones-sociais a:hover::before,
+.icones-sociais a:focus::before {
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(.5em) rotate(45deg);
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+thead th{
+    background-color: #3C1D3D;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+}
+
+tbody th{
+    background-color: #851944;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+}
+
+tbody td {
+    background-color: #EEE;
+    padding: 1em;
+}
+
+
+[colspan] {
+    text-align: center;
+    font-style: italic;
+}
+
+[rowspan] {
+    vertical-align: middle;
+}
+
+
+
+/* teste */
+
